@@ -47,19 +47,21 @@ A minimal React app that demonstrates wallet login using Wagmi, WalletConnect, M
 ## Screenshots
 
 # Login Screen
-![loginscreen](images/main.JPG)
+![loginscreen](images/main.PNG)
 
+# Login Screen
+![loginscreen](images/main.PNG)
 
 ## Meta Mask Login
-![MetaMask_Login](images/MetaMask_login.JPG)
+![MetaMask_Login](images/MetaMask_login.PNG)
 
 
 ## Other Wallet Login
-![Other_wallets_Login](images/other%20wallet%20login.JPG)
+![Other_wallets_Login](images/other%20wallet%20login.PNG)
 
 
 ## Connected Wallet
-![Connected Wallet](images/Wallet%20Login.JPG)
+![Connected Wallet](images/Wallet%20Login.PNG)
 
 
 
