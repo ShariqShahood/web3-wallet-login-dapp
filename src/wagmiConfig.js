@@ -1,5 +1,3 @@
-
-
 import { configureChains, createConfig } from 'wagmi'
 import { mainnet, sepolia } from 'wagmi/chains'
 import { InjectedConnector } from 'wagmi/connectors/injected'
@@ -14,13 +12,13 @@ const { chains, publicClient, webSocketPublicClient } = configureChains(
 )
 
 export const wagmiConfig = createConfig({
-  autoConnect: false, // 🔴 MUST stay false
+  autoConnect: true, // Keep this as true
   connectors: [
     // MetaMask (Injected)
     new InjectedConnector({
       chains,
       options: {
-        shimDisconnect: true,
+        shimDisconnect: false, // ✅ CHANGED from true to false
       },
     }),
 
@@ -28,7 +26,7 @@ export const wagmiConfig = createConfig({
     new WalletConnectConnector({
       chains,
       options: {
-        projectId,
+        projectId: projectId || 'demo',
         qrcode: true,
       },
     }),

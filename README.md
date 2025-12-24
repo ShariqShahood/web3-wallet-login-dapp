@@ -1,65 +1,40 @@
 # Web3 Wallet Login DApp
 
-
-## Overview
-A minimal React app that demonstrates wallet login using Wagmi, WalletConnect, MetaMask, and Coinbase Wallet. It ships with a dark Bootstrap theme and is configured to run locally on port 3000.
-
+A modern, responsive decentralized application for wallet authentication using MetaMask and WalletConnect.
 
 ## Features
-- MetaMask login
-- WalletConnect QR login
-- Disconnect functionality
-- React + Wagmi
 
+- 🔐 **Multi-Wallet Support**: Connect with MetaMask or WalletConnect
+- 🌐 **Network Detection**: Automatically detects connected network
+- 📱 **Responsive Design**: Works on desktop and mobile
+- 🎨 **Modern UI**: Glassmorphism design with gradients
+- 📋 **Address Copy**: One-click copy wallet address
+- 🔄 **Real-time Status**: Shows connection and network status
 
-## Prerequisites
-- Node.js 16+ (18+ recommended)
-- npm (or another Node package manager)
+## Live Demo
 
-
-## Setup
-1. Install dependencies: `npm install`
-2. Start dev server: `npm run dev`
-3. Connect your wallet
-
-
-## Getting started
-1. Install dependencies:
-   ```bash
-   npm install
-   ```
-2. Start the dev server (served at http://localhost:3000):
-   ```bash
-   npm run dev
-   ```
-3. Build for production:
-   ```bash
-   npm run build
-   ```
-4. Preview the production build:
-   ```bash
-   npm run preview
-   ```
-
-## Notes
-- Set your WalletConnect project id in `.env` as `VITE_WALLETCONNECT_PROJECT_ID=your_id` (the app will throw if it is missing).
+[Add your GitHub Pages link here after deployment]
 
 ## Screenshots
 
-# Login Screen
-![loginscreen](images/main.JPG)
+1. **Connect Wallet Screen**
+   ![Connect Screen](images/connect-screen.png)
 
+2. **Connected Wallet Screen**
+   ![Connected Screen](images/connected-screen.png)
 
-## Meta Mask Login
-![MetaMask_Login](images/MetaMask_login.JPG)
+3. **Mobile View**
+   ![Mobile View](images/mobile-view.png)
 
+## Prerequisites
 
-## Other Wallet Login
-![Other_wallets_Login](images/other%20wallet%20login.JPG)
+- Node.js (v16 or higher)
+- npm or yarn
+- MetaMask browser extension (for MetaMask login)
 
+## Installation
 
-## Connected Wallet
-![Connected Wallet](images/Wallet%20Login.JPG)
-
-
-
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/web3-wallet-login-dapp.git
+   cd web3-wallet-login-dapp
