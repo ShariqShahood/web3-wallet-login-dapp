@@ -13,18 +13,24 @@ A modern, responsive decentralized application for wallet authentication using M
 
 ## Live Demo
 
-[Add your GitHub Pages link here after deployment]
+https://web3-wallet-shariq.netlify.app/
 
 ## Screenshots
 
-1. **Connect Wallet Screen**
-   ![Connect Screen](images/connect-screen.png)
+1. **Main Screen**
+   ![Connect Screen](images/main.png)
 
-2. **Connected Wallet Screen**
-   ![Connected Screen](images/connected-screen.png)
+2. **Main2**
+   ![Connect Screen](images/main2.png)
 
-3. **Mobile View**
-   ![Mobile View](images/mobile-view.png)
+3. **MetaMask_login Screen**
+   ![Connect Screen](images/MetaMask_login.png)
+
+4. **other wallet login Screen**
+   ![Connected Screen](images/other wallet login.png)
+
+5. **Wallet Login**
+   ![Mobile View](images/Wallet Login.png)
 
 ## Prerequisites
 
